@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting data-jetpack-id="jid0-G6461UajDjhNAwSukoedlkhD0XA@jetpack" pref="extensions.jid0-G6461UajDjhNAwSukoedlkhD0XA@jetpack.YTRP_CONF_SETTINGS_BUTTON" pref-name="YTRP_CONF_SETTINGS_BUTTON" title="" type="control">
+    <button data-jetpack-id="jid0-G6461UajDjhNAwSukoedlkhD0XA@jetpack" label="Show configuration dialog" oncommand="Services.obs.notifyObservers(null, 'jid0-G6461UajDjhNAwSukoedlkhD0XA@jetpack-cmdPressed', 'YTRP_CONF_SETTINGS_BUTTON');" pref-name="YTRP_CONF_SETTINGS_BUTTON"/>
+  </setting>
+</vbox>

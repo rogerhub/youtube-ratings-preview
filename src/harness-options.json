@@ -1,0 +1,63 @@
+{
+ "enable_e10s": false, 
+ "is-sdk-bundled": true, 
+ "jetpackID": "jid0-G6461UajDjhNAwSukoedlkhD0XA@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "youtube-tm-ratings-preview/main", 
+ "manifest": {
+  "youtube-tm-ratings-preview/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "2376e929df51d317ca155a8079d11fe9b4ad98606fd469589d71b50d27f5201a", 
+   "moduleName": "main", 
+   "packageName": "youtube-tm-ratings-preview", 
+   "requirements": {
+    "page-mod": "sdk/page-mod", 
+    "panel": "sdk/panel", 
+    "self": "sdk/self", 
+    "simple-prefs": "sdk/simple-prefs", 
+    "simple-storage": "sdk/simple-storage", 
+    "tabs": "sdk/tabs", 
+    "widget": "sdk/widget", 
+    "xhr": "sdk/net/xhr"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "youtube-tm-ratings-preview": {
+   "author": "Cristian Perez", 
+   "description": "Show the likes and dislikes bar over every video thumbnail in YouTube so that you can know its rating before watching it.", 
+   "homepage": "https://addons.mozilla.org/firefox/addon/youtube-ratings-preview/", 
+   "main": "main", 
+   "name": "youtube-tm-ratings-preview", 
+   "version": "3.0"
+  }
+ }, 
+ "name": "youtube-tm-ratings-preview", 
+ "preferences": [
+  {
+   "label": "Show configuration dialog", 
+   "name": "YTRP_CONF_SETTINGS_BUTTON", 
+   "title": "", 
+   "type": "control"
+  }
+ ], 
+ "sdkVersion": "1.14", 
+ "staticArgs": {}, 
+ "verbose": false
+}
